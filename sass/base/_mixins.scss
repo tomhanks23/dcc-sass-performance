@@ -1,0 +1,19 @@
+@mixin clearfix {
+	&:before,
+	&:after {
+	    content: " ";
+	    display: table;
+	}
+	&:after {
+	    clear: both;
+	}
+	// IE 6/7
+	.cf {
+	    *zoom: 1;
+	}
+}
+
+// To be used with @extends
+%clearfix {
+	@include clearfix;
+}

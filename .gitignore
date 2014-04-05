@@ -1,0 +1,18 @@
+bower_components
+*.log
+*.phar
+.DS_Store
+
+### OSX
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must ends with two \r.
+Icon
+
+# Thumbnails
+._*
+
+### SASS
+*.sass-cache

@@ -1,0 +1,66 @@
+.compose {
+	@extend .box-module;
+
+	.field {
+		border: 1px solid #56B4EF;
+		padding: 4px;
+		@include border-radius(3px);
+		@include single-box-shadow(rgba(82, 169, 236, 0.6), 0, 0, 5px, 0);
+		@include clearfix;
+
+		a {
+			float: right;
+			margin-right: 5px;
+			text-decoration: none;
+			
+			&:hover {
+				color: #134863;
+			}
+		}
+
+		input {
+			border: none;
+			width: 80%;
+			font-size: 12pt;
+
+			&:focus {
+				outline: none;
+			}
+
+		}
+
+	}
+
+}
+
+
+
+
+.tweets {
+	@extend .box-module;
+}
+
+.tweets a.get-more {
+	color: #2997CE;
+	display: block;
+	margin-top: 10px;
+}
+
+.tweets .tweet {
+	overflow: hidden;
+	padding: 10px;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.tweets .tweet img {
+	float: left;
+}
+
+.tweets .tweet h3 {
+	margin-left: 55px;
+}
+
+.tweets .tweet p {
+	margin-left: 55px;
+	color: #888888;
+}
