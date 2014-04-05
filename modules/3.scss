@@ -1,0 +1,11 @@
+@mixin module-box {
+	background-color: #fff;
+	border: 1px solid #e1e8ed;
+	padding: 15px;
+	line-height: 16px;
+}
+
+// DRY SCSS, but WET CSS
+.main-content { @include module-box; }
+.features { @include module-box; }
+.legal { @include module-box; }

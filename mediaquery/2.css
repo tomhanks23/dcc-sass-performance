@@ -1,0 +1,19 @@
+@media screen and (min-width: 960px) {
+  /* line 3, 2.scss */
+  header nav {
+    position: relative;
+  }
+}
+/* line 7, 2.scss */
+header nav ul {
+  padding: 10px;
+}
+@media screen and (min-width: 960px) {
+  /* line 7, 2.scss */
+  header nav ul {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0px;
+  }
+}

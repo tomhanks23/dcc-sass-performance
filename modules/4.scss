@@ -1,0 +1,17 @@
+.module-box {
+	background-color: #fff;
+	border: 1px solid #e1e8ed;
+	padding: 15px;
+	line-height: 16px;
+}
+
+// SCSS writes the CSS we don't want to
+.main-content { @extend .module-box; }
+.features { @extend .module-box; }
+.legal { @extend .module-box; }
+
+// Then you can override like this if you 
+// need to
+.legal {
+	padding: 10px;
+}

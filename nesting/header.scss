@@ -1,0 +1,31 @@
+header {
+	width: 960px;
+	margin: auto;
+	position: relative;
+
+	nav.main {
+		position: absolute;
+		top: 0px;
+		right: 0px;
+
+		ul {
+			background-color: red;
+
+			li {
+				display: block;
+				
+				a.main-menu {
+					display: block;
+					padding: 10px;
+					background-color: red
+				}
+
+			}
+
+		}
+		
+
+	}
+
+
+}

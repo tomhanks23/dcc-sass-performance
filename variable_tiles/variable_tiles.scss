@@ -1,0 +1,36 @@
+body { margin: 20px; }
+
+$cube-dimension: 140px;
+$cube-gutter: 5px;
+
+@mixin cube-column($col) {
+	left: (($col - 1) * ($cube-dimension + $cube-gutter));
+}
+
+@mixin cube-row($row) {
+	top: (($row - 1) * ($cube-dimension + $cube-gutter));
+}
+
+.cubes {
+	background-color: #DDDDDD;
+	position: relative;
+	width: 4 * $cube-dimension + 5 * $cube-gutter;
+	height: 3 * $cube-dimension + 3 * $cube-gutter;
+
+	> a {
+		background-color: #AAAAAA;
+		position: absolute;
+		display: block;
+		width: $cube-dimension;
+		height: $cube-dimension;
+		text-decoration: none;
+
+		&.topic1 { @include cube-row(1); @include cube-column(1); }
+		&.topic2 { @include cube-row(1); @include cube-column(2); }
+		&.topic3 { @include cube-row(2); @include cube-column(1); }
+		&.topic4 { @include cube-row(3); @include cube-column(2); }
+		&.topic5 { @include cube-row(2); @include cube-column(3); }
+
+	}
+
+}

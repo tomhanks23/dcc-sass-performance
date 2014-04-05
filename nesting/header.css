@@ -1,0 +1,26 @@
+/* line 1, header.scss */
+header {
+  width: 960px;
+  margin: auto;
+  position: relative;
+}
+/* line 6, header.scss */
+header nav.main {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+/* line 11, header.scss */
+header nav.main ul {
+  background-color: red;
+}
+/* line 14, header.scss */
+header nav.main ul li {
+  display: block;
+}
+/* line 17, header.scss */
+header nav.main ul li a.main-menu {
+  display: block;
+  padding: 10px;
+  background-color: red;
+}

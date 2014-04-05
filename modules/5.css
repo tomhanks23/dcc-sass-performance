@@ -1,0 +1,12 @@
+/* line 1, 5.scss */
+.main-content, .features, .legal {
+  background-color: #fff;
+  border: 1px solid #e1e8ed;
+  padding: 15px;
+  line-height: 16px;
+}
+
+/* line 15, 5.scss */
+.legal {
+  padding: 10px;
+}

@@ -1,0 +1,17 @@
+// A slightly better way
+header {
+	nav {
+		@media screen and (min-width: 960px) {
+			position: relative;
+		}
+		ul {
+			padding: 10px;
+			@media screen and (min-width: 960px) {
+				position: absolute;
+				top: 0;
+				right: 0;
+				padding: 0px; // override
+			}
+		}
+	}
+}

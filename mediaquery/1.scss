@@ -1,0 +1,44 @@
+// The way it normally happens
+header {
+	nav {
+		ul {
+			padding: 10px;
+		}
+	}
+}
+
+
+// more css
+
+// more css
+
+// more css
+
+// more css
+
+// more css
+
+// more css
+
+// more css
+
+// more css
+
+// more css
+
+
+
+/* Media Queries Here */
+@media screen and (min-width: 960px) {
+	header {
+		nav {
+			position: relative;
+			ul {
+				position: absolute;
+				top: 0;
+				right: 0;
+				padding: 0px; // override
+			}
+		}
+	}
+}

@@ -1,0 +1,14 @@
+/* line 10, args.scss */
+.main-content {
+  background-color: red;
+  border: 1px solid #e1e8ed;
+  padding: 15px;
+  line-height: 15px;
+}
+
+/* line 14, args.scss */
+footer {
+  background-color: blue;
+  padding: 15px;
+  line-height: 15px;
+}

@@ -1,0 +1,65 @@
+/* line 1, base/_reset.scss */
+* {
+  margin: 0;
+  padding: 0;
+  color: #444444;
+  font-family: "Open Sans", Tahoma, Arial;
+  font-size: 12pt;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 10, base/_reset.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 11, base/_reset.scss */
+body {
+  min-height: 100%;
+}
+
+/* line 12, base/_reset.scss */
+img {
+  border: 0;
+}
+
+/* line 13, base/_reset.scss */
+a {
+  color: #068acc;
+}
+/* line 15, base/_reset.scss */
+a:focus, a:active {
+  outline: 0;
+}
+
+/* line 1, app/_mixins.scss */
+.box-module {
+  background-color: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  margin: 10px 0;
+  padding: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 1, app/_defaults.scss */
+h1 {
+  font-size: 30pt;
+}
+
+/* line 5, app/_defaults.scss */
+p {
+  padding: 10px;
+}
+
+/* line 1, app/_structure.scss */
+.main-container {
+  margin: 15px auto;
+  padding: 0px 10px 10px 10px;
+  width: 500px;
+}

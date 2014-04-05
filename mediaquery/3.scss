@@ -1,0 +1,24 @@
+$breakpoint-size-browser: 960px;
+
+@mixin breakpoint($size) {
+	@media screen and (min-width: $size) {
+		@content;
+	}
+}
+
+header {
+	nav {
+		@include breakpoint($breakpoint-size-browser) {
+			position: relative;
+		}
+		ul {
+			padding: 10px;
+			@include breakpoint(500px) {
+				position: absolute;
+				top: 0;
+				right: 0;
+				padding: 0px; // override
+			}
+		}
+	}
+}

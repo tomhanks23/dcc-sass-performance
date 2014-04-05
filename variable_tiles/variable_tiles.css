@@ -1,0 +1,46 @@
+/* line 1, variable_tiles.scss */
+body {
+  margin: 20px;
+}
+
+/* line 14, variable_tiles.scss */
+.cubes {
+  background-color: #DDDDDD;
+  position: relative;
+  width: 585px;
+  height: 435px;
+}
+/* line 20, variable_tiles.scss */
+.cubes > a {
+  background-color: #AAAAAA;
+  position: absolute;
+  display: block;
+  width: 140px;
+  height: 140px;
+  text-decoration: none;
+}
+/* line 28, variable_tiles.scss */
+.cubes > a.topic1 {
+  top: 0px;
+  left: 0px;
+}
+/* line 29, variable_tiles.scss */
+.cubes > a.topic2 {
+  top: 0px;
+  left: 145px;
+}
+/* line 30, variable_tiles.scss */
+.cubes > a.topic3 {
+  top: 145px;
+  left: 0px;
+}
+/* line 31, variable_tiles.scss */
+.cubes > a.topic4 {
+  top: 290px;
+  left: 145px;
+}
+/* line 32, variable_tiles.scss */
+.cubes > a.topic5 {
+  top: 145px;
+  left: 290px;
+}

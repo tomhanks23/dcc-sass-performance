@@ -1,0 +1,10 @@
+@mixin module-box($color) {
+	background-color: $color;
+	@content;
+}
+
+.main-content {
+	@include module-box(red) {
+		padding: 30px;
+	};
+}

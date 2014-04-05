@@ -1,0 +1,23 @@
+/* line 9, 3.scss */
+.main-content {
+  background-color: #fff;
+  border: 1px solid #e1e8ed;
+  padding: 15px;
+  line-height: 16px;
+}
+
+/* line 10, 3.scss */
+.features {
+  background-color: #fff;
+  border: 1px solid #e1e8ed;
+  padding: 15px;
+  line-height: 16px;
+}
+
+/* line 11, 3.scss */
+.legal {
+  background-color: #fff;
+  border: 1px solid #e1e8ed;
+  padding: 15px;
+  line-height: 16px;
+}

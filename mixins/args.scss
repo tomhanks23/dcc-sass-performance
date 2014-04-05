@@ -1,0 +1,16 @@
+@mixin module-box($color, $border: true, $padding: 15px) {
+	background-color: $color;
+	@if $border {
+		border: 1px solid #e1e8ed;
+	}
+	padding: 15px;
+	line-height: $padding;
+}
+
+.main-content {
+	@include module-box(red);
+}
+
+footer {
+	@include module-box(blue, false);
+}
