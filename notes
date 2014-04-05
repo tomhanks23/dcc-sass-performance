@@ -1,16 +1,16 @@
 Start by showing how to launch compass watch
 
-One of the main characteristics of writting good css is: Dont Repeat Yourself
+One of the main characteristics of writing good css is: Don’t Repeat Yourself
 	This leads to overusing class names by abstracting common css patterns into a class name
 	Which is just another version of repeating yourself (and messing up your HTML)
 		
 		:: Demo ::
 		Show how in normal css we might repeat a color several times
 			The wrong way to correct this is to abstract that color as a class
-				Now our HTML is poluted
+				Now our HTML is polluted
 			With sass we can make variables
 				sometimes naming colors after their hue is easier (and it's not unsemantic)
-				Overabstraction can take away from readability
+				Over-abstraction can take away from readability
 		
 		:: /variable_tiles ::
 		Audience, how would you solve the Uzinggo tiles?
@@ -25,7 +25,7 @@ One of the main characteristics of writting good css is: Dont Repeat Yourself
 			Explain right-to-left selectors
 				And the performance impact of having too many selectors
 			Explain over-selection
-				And how it makes overridding more difficult
+				And how it makes overriding more difficult
 
 		:: /modules ::
 			How mixins can help / or hurt
@@ -37,16 +37,17 @@ One of the main characteristics of writting good css is: Dont Repeat Yourself
 
 		:: /mediaquery ::
 			Example 1
-				Disconnect bettween two selectors
+				Disconnect between two selectors
 				Have to repeat selectors
 				Promotes the "everything has to break at the same point" pattern
 			Example 2
 				No more disconnect
 				No more having to repeat the selector
-				Promotes situaltional based breakpoints
+				Promotes situational based breakpoints
 				But we have to write the media query over and over which sucks
 			Example 3
 				The mixin way
 
-:: file organization ::
+			:: file organization ::
+				/css
 
