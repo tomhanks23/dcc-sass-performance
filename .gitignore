@@ -15,4 +15,4 @@ Icon
 ._*
 
 ### SASS
-*.sass-cache
+.sass-cache
